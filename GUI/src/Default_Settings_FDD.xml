@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- DTD -->
+<!DOCTYPE repertory [
+ 	<!ELEMENT repertory (settings*)>
+ 	<!ELEMENT settings (p, i, d)>
+  	<!ELEMENT p (#PCDATA)>
+  	<!ELEMENT i (#PCDATA)>
+	<!ELEMENT d (#PCDATA)>
+]>
+<!-- Corps -->
+<repertory>
+	<settings name="Ultimate Proportional ZN">
+		<p>0.67</p>
+		<i>0</i>
+		<d>0</d>
+	</settings>
+	<settings name="Proportional ZN">
+		<p>0.34</p>
+		<i>0</i>
+		<d>0</d>
+	</settings>
+	<settings name="PI ZN">
+		<p>0.27</p>
+		<i>0.58</i>
+		<d>1.00</d>
+	</settings>
+	<settings name="PID ZN">
+		<p>0.40</p>
+		<i>1.39</i>
+		<d>0.01</d>
+	</settings>
+	<settings name="Custom PI">
+		<p>0.27</p>
+		<i>0.32</i>
+		<d>0</d>
+	</settings>
+	<settings name="Custom PD">
+		<p>0.40</p>
+		<i>0</i>
+		<d>0.2</d>
+	</settings>
+	<settings name="Custom Optimal PID">
+		<p>0.1</p>
+		<i>2.5</i>
+		<d>0.2</d>
+	</settings>
+</repertory>

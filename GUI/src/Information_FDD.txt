@@ -1,0 +1,47 @@
+//---Fligh Desk Control Demonstrator--//
+//--------Cranfield University--------//
+//-------------Version V1-------------//
+//-------------Joris Duran------------//
+'
+//----------------Warning-------------//
+'
+Remove the Bluetooth module to connect the board by USB cable
+The internal 1.1V of the board is used to measure analogic data with the ADC
+The demonstrator is designed to work in Bluetooth, The values may differ using the USB cable
+'
+//-------------How to use-------------//
+'
+Pair the Bluetooth model, Password: 1234, Name: FLIGHT_DESK_DEMONSTRATOR
+With the GUI, Connect (this can take a few seconds)
+The settings are sent automatically except the command angle
+The zero angle of the aerofoil can be reset by pushing the button on the PDB
+'
+//-----------Default Values-----------//
+'
+P = 0, I = 0, D = 0
+Limit angle +/-15deg
+Sampling time = 2ms
+Baud rate = 112500
+Data sending every 25ms
+Cut-off frequency Derivative term filter fc = 8.38Hz
+Cut-off frequency potentiometre analogic input filter fc = 0.96Hz
+Cut-off frequency Pitot tube analogic input filter fc = 0.016Hz
+Buzzer tone 300ms
+Turbine power control ramp 1/100 (%/ms)
+The angle sent to the servo is 3 times the setpoint to get the righ flap deflection
+Neutral PWM duty cycle for the servo 1500
+Minimum PWM duty cycle for the turbine 1000
+Maximun PWM duty cycle for the turbine 2000
+With the differential OpAmp maximal value from the Pitot Tube is 1796Pa for Vout = 3.6V
+Excel files created have 600 points maximum (FIFO lists)
+2 decimals only for all floats
+'
+//-------------Pitot Tube-------------//
+'
+Vout = VS × (0.2 × P(kPa)+0.5) ± 6.25% VFSS 
+VS = 5.0V, VFSS = 4.0V
+Bernoulli to vitesse v = sqrt(2*P(Pa)/rho)
+rho = 1.225 Kg/m3
+The zero of the Pitot tube can be adjusted thanks to the potentiometre on the PDB
+The Potentiomtre is very sensitive
+'
