@@ -1,0 +1,19 @@
+{
+  "name": "PID_V2",
+  "keywords": "PID, controller, signal",
+  "description": "A PID controller seeks to keep some input variable close to a desired setpoint by adjusting an output. The way in which it does this can be 'tuned' by adjusting three parameters (P,I,D). Some modifications are included",
+  "url": "http://playground.arduino.cc/Code/PIDLibrary",
+  "include": "PID_v2",
+  "authors":
+  [
+    {
+      "name": "Joris Duran"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/br3ttb/Arduino-PID-Library.git"
+  },
+  "frameworks": "arduino"
+}
