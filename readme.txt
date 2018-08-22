@@ -19,6 +19,7 @@ The source code inside the controller and all the necessary code for maintenance
 The source code inside the controller and all the necessary code for maintenance
 	Libraries
 	The JAVA jdk to install to run the GUI (JAVA 8 172)
+	The Dll to install (see GUI readme)
 Troubleshooting
 
 //----------Troubleshooting-----------//
@@ -30,5 +31,5 @@ The aerofoil zero angle is wrong, press the push-button on the PDB when the aero
 The airflow velocity is wrong, adjust the value thanks to the potentiometre on the PDB
 The system response is not symmetric, the crank must be readjusted and balanced
 If the motor drawn suddenly to much current the power supply turns off itself, recalibrate the ESC
-The app does mot start, install the right JAVA jdk version (provided)
+The app does not start, install the right JAVA jdk version (provided)
 
