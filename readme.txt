@@ -18,7 +18,7 @@ The source code inside the controller and all the necessary code for maintenance
 	AT command to change the settings of the Bluetooth module (HC-05)
 The source code inside the controller and all the necessary code for maintenance
 	Libraries
-	The JAVA jdk to install to run the GUI
+	The JAVA jdk to install to run the GUI (JAVA 8 172)
 Troubleshooting
 
 //----------Troubleshooting-----------//
